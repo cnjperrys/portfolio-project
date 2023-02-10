@@ -6,11 +6,11 @@ font-family: 'Poppins',
 sans-seri*/
 
 :root {
-    --branding-color: #6c63ff;
+    --branding-color: #343266;
     --heading-font-family: "playfair display",
         serif;
     --default-font-family: "poppins", sans-serif; 
-    --secondary-color: #f9f7fe; 
+    --secondary-color: #d9d9d9; 
 
 }
 
@@ -196,7 +196,11 @@ footer .social-link a:hover {
     h2 {
         font-size: 44px;
     }
-    h3 {
+    h4 {
+        font-size: 26px;
+    }
+
+    .btn {
         font-size: 18px;
     }
         .hero {
@@ -211,10 +215,7 @@ footer .social-link a:hover {
         text-align: center;
         padding: 0;
     }
-    footer .contact-box {
-        padding: 30px;
-       
-     }
+   
 }
 
 

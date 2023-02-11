@@ -65,7 +65,7 @@ p {
 }
 
 .content-container {
-    padding: 160px 20px;
+    padding: 60px 20px;
 }
 
 .content h1 {
@@ -115,6 +115,9 @@ p {
  }
 
  .logo {
+    max-width: 100px;
+    max-height: 100px;
+   
    
  }
 
@@ -132,6 +135,7 @@ nav {
     list-style: none;
     line-height: 42px;
     margin-left: 15px;
+   
 
  }
  nav a {
@@ -188,6 +192,11 @@ footer .social-link a:hover {
 }
 
 @media (max-width: 900px){
+    
+    nav {
+        font-size: 12px;
+    }
+        
     h1 {
         font-size: 44px;
         line-height: 1.5;
@@ -201,6 +210,7 @@ footer .social-link a:hover {
 
     .btn {
         font-size: 18px;
+        margin-bottom: 30px;
     }
         .hero {
             padding: 80px 20px;

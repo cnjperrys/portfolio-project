@@ -32,7 +32,7 @@ h2 {
     font-size: 64px;
 
 }
-h4 {
+h3 {
     font-size: 48px;
 
 }
@@ -146,6 +146,11 @@ nav {
 nav a:hover, 
 nav li.active a {
     color: var(--branding-color);
+}
+
+.about.img {
+    max-height: 400px;
+
 }
 
 footer {
